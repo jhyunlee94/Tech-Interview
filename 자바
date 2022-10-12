@@ -207,6 +207,9 @@
   UnCheckedException은 실행하고 난 후에 알 수 있는 예외를 말하고 따로 예외처리를 하지 않아도 됨
   Exception - NullPointerException, ArrayIndexOutOfBoundException
 
+  RuntimeException은 UncheckedException을 상속한 클래스이고, 
+  RuntimeException이 아닌 것은 CheckedException을 상속한 클래스 입니다.
+
 25. 컬렉션 프레임워크에 대해 설명해주세요.
   표준화된 방법을 제공하는 클래스의 집합을 의미
   List, Set, Map, Stack, Queue 등이 존재합니다.
